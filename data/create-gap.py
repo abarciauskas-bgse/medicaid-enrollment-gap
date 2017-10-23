@@ -50,7 +50,7 @@ merged_data = merged_data.merge(
 # levels.
 # https://www.healthcare.gov/medicaid-chip/medicaid-expansion-and-you/
 merged_data['medicaid_rate'] = (merged_data[medicaid_metadata['data_col']] / merged_data[population_metadata['data_col']]) * 100
-merged_data['gap'] = merged_data['medicaid_rate'] - merged_data['3yr-average-2014-2016']
+merged_data['gap'] = (merged_data['medicaid_rate'] - merged_data['3yr-average-2014-2016']).round(2)
 
 print(merged_data[['NAME','medicaid_rate','3yr-average-2014-2016','gap']])
 pd.DataFrame.to_csv(merged_data[['NAME','medicaid_rate','3yr-average-2014-2016','gap']], path_or_buf='medicaid-poverty-gap.csv')
