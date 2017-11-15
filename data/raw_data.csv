@@ -1,5 +1,4 @@
 "Location","Under 100%","100-199%","200-399%","400%+","Total"
-"United States","0.13","0.17","0.29","0.41","1.00"
 "Alabama","0.16","0.19","0.30","0.35","1.00"
 "Alaska","0.13","0.14","0.28","0.45","1.00"
 "Arizona","0.16","0.19","0.28","0.36","1.00"
@@ -51,15 +50,3 @@
 "West Virginia","0.18","0.20","0.32","0.30","1.00"
 "Wisconsin","0.11","0.16","0.30","0.43","1.00"
 "Wyoming","0.11","0.20","0.30","0.40","1.00"
-
-"Notes"
-"In this analysis, income (mostly categorized as a percent of the federal poverty level) is aggregated by Census-defined family units. Analyzing income by family unit captures income available to a group of people who are likely sharing resources. However, family units may not be the appropriate measure for capturing eligibility for health insurance.  Eligibility for health insurance is more accurately estimated using ""health insurance units,"" which may be counted differently for different types of insurance (such as Medicaid or employer coverage)."
-""
-"The U.S. Census Bureau's poverty threshold for a family with two adults and one child was $20,160 in 2016.  This is the official measurement of poverty used by the Federal Government, and the measure used for most poverty-based data presented on State Health Facts.  The Department of Health and Human Services (HHS) produces simplified - but very similar - versions of these poverty thresholds called ""poverty guidelines"" that are used to assess eligibility for income-based programs such as Medicaid.  For more information on measures of poverty, please see the detailed description provided by HHS: [http://aspe.hhs.gov/poverty/faq.cfm](http://aspe.hhs.gov/poverty/faq.cfm).                                                                                                       "
-""
-"Data may not sum to totals due to rounding."
-
-"Sources"
-"Kaiser Family Foundation estimates based on the Census Bureau's March Current Population Survey (CPS: Annual Social and Economic Supplements), 2017."
-
-
